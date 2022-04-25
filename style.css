@@ -1,0 +1,7 @@
+*{padding: 0;margin: 0;user-select: none;}
+::-webkit-scrollbar{display: none;}
+.main>div{background-repeat: no-repeat; background-attachment: fixed;background-size: cover;background-position: center center;}
+.a{background: url(img/a.jpg);}
+.a{background: url(img/b.jpg);}
+.c{background: url(img/c.jpg);}
+
