@@ -17,7 +17,9 @@
             <div class="cdh">
                 <ul>
                     <li class="top">返回顶部</li>
-                    <a href="https://jiuhe1129.github.io"><li>个人主页</li></a>
+                    <a href="https://jiuhe1129.github.io">
+                        <li>个人主页</li>
+                    </a>
                 </ul>
             </div>
             <div class="main">
@@ -35,6 +37,18 @@
     </div>
 </body>
 <script>
+    $(window).scroll(function () {
+        var top = $(window).scrollTop();
+        console.log(top);
+        if (top >= 990) {
+            $(".cdh ul").css("right", "0%")
+            $(".cdh ul").css("opacity", "1")
+        } else {
+            $(".cdh ul").css("right", "-10%")
+            $(".cdh ul").css("opacity", "0")
+        }
+    })
+
     $(".top").click(function () {
         $('html').animate({ scrollTop: '0' }, 600);
         console.log("D")
