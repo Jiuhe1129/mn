@@ -1,7 +1,22 @@
 *{padding: 0;margin: 0; user-select: none;}
 ::-webkit-scrollbar{display: none;}
+li,a{text-decoration: none; list-style: none;color: #ffffff90;}
+.sj{display: none;}
+.cdh ul{width: 100px; color: #fff; position: fixed;  right: 0%; top: 45%; background: #1A293C50; overflow: hidden; transition: .6s; z-index: 99;}
+.cdh li{line-height: 50px; font-size: 18px; text-align: center; transition: .5s;}
+.cdh li:hover{background:#ffffff50;}
 .main>div{width: 100%; height: 100vh; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center center;}
 .a{background: url(img/a.jpg);}
 .b{background: url(img/b.jpg);}
 .c{background: url(img/c.jpg);}
+.d{background: url(img/d.jpg);}
+.e{background: url(img/e.jpg);}
+.f{background: url(img/f.jpg);}
+.g{background: url(img/g.jpg);}
 
+@media screen and (max-width: 1500px) {
+    .l{
+      display: none;
+    }
+    .sj{display: block; width: 100%; height: 100vh; text-align: center; line-height: 100vh; font-size: 20px; color: #000 ;}
+  }
