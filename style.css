@@ -2,7 +2,7 @@
 ::-webkit-scrollbar{display: none;}
 li,a{text-decoration: none; list-style: none;color: #ffffff90;}
 .sj{display: none;}
-.cdh ul{width: 100px; color: #fff; position: fixed;  right: 0%; top: 45%; background: #1A293C50; overflow: hidden; transition: .6s; z-index: 99;}
+.cdh ul{width: 100px; color: #fff; position: fixed;  right: -10%; top: 45%; background: #1A293C50; overflow: hidden; transition: .6s; z-index: 99;}
 .cdh li{line-height: 50px; font-size: 18px; text-align: center; transition: .5s;}
 .cdh li:hover{background:#ffffff50;}
 .main>div{width: 100%; height: 100vh; background-repeat: no-repeat; background-attachment: fixed; background-size: cover; background-position: center center;}
